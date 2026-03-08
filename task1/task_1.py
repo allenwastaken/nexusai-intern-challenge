@@ -75,7 +75,7 @@ async def handle_message(customer_message, customer_id, channel):
     base_prompt = f"""
 You are a telecom support agent for MMITS.
 
-Customer ID: {customer_id}
+Customer ID: {customer_id} is always the same format
 
 You assist with billing issues, service outages, plan changes, and cancellations.
 Be professional, empathetic, and accurate.
