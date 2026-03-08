@@ -1,0 +1,2 @@
+1.  Confidence is 0.90 but intent is service_cancellation
+The rules are implemented with priority given to service_cancellation intent. Regardless of confidence score being high(0.90) it will be escalated as it overtakes the priority over the confidence score. Decisions like account termination/sensitive data handling is better suited for a human agent as it is high risk, also human agent can also give retention offers for the user to stay. AI responses are better off handling troubleshooting or information tasks and not irreversable actions.
