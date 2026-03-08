@@ -1,7 +1,4 @@
-# Task 1 AI Message Handler
-
-Processes customer messages using an LLM and returns a structured
-response.
+# Task 1 
 
 Function:
 
@@ -68,7 +65,7 @@ days.
 
 
 
-# Task 3 Parallel Data Fetcher
+# Task 3 Async Parallel
 
 Simulates retrieving customer information from multiple systems.
 
@@ -94,7 +91,7 @@ Expected behavior:
 Sequential runtime ≈ sum of delays
 Parallel runtime ≈ slowest delay
 
-# Task 4 Escalation Decision Engine
+# Task 4 Escalation System
 
 Determines whether AI should handle the request or escalate to a human
 agent.
